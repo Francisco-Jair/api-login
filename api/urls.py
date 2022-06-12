@@ -21,8 +21,6 @@ from rest_framework.routers import DefaultRouter
 from api.core.views import CreateUsuariosViewSet, ListaUsuarios
 
 
-
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
