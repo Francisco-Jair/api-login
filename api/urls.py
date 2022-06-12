@@ -17,8 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
-from core.views import UserViewSet
 from rest_framework.routers import DefaultRouter
+from api.core.views import UserViewSet
+
 
 
 urlpatterns = [
